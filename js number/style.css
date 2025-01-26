@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    height: 800px;
+}
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+}
+h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 1px 3px 5px #333 ;
+    font-size: 20px;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+label {
+    font-size: 14px;
+    color: #555;
+}
+#output {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #007bff;
+}
